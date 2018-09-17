@@ -1,0 +1,69 @@
+.App {
+    padding: 16px;
+}
+
+.App-header {
+    background-color: #222;
+    height: 150px;
+    padding: 20px;
+    color: white;
+}
+
+.App-title {
+    font-size: 1.5em;
+}
+
+.App-intro {
+    font-size: large;
+}
+
+.timerp, .text {
+    font-size: 40px;
+    font-weight: 200;
+}
+
+.timerp.no_start {
+    color: lightgreen;
+}
+
+.timerp.start {
+    color: blue;
+}
+
+.timerp.pause {
+    color: darkgoldenrod;
+}
+
+.timerp.stop {
+    color: darkgreen;
+}
+
+fieldset {
+    padding: 16px;
+    border-width: 2px;
+    border-style: groove;
+    border-color: threedface;
+    border-image: initial;
+}
+
+legend {
+    width: inherit;
+}
+
+.controls {
+    display: flex;
+}
+
+.controls button {
+    flex: 1 1 auto;
+    margin: 0 8px;
+}
+
+@keyframes App-logo-spin {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
